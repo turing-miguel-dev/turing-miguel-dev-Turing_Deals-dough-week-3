@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orders | Deals Dough Hub Pizza House</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <aside class="sidebar">
+
+    <a class="logo" href="index.html">
+      <img src="m1.jpg.png" alt="Logo">
+    </a>
+
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="orders.html" class="active">Orders</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <p class="sidebar-tag">Good Food,<br>Good Moments!</p>
+
+  </aside>
+
+  <div class="main">
+
+    <header class="topbar">
+      <p>Hot, fresh &amp; made with love. Order your favorites today.</p>
+
+      <a class="btn btn-dark" href="cart.html">
+        🛒 Cart
+        <span class="cart-count" data-cart-count>0</span>
+      </a>
+    </header>
+
+    <main class="page">
+
+      <h1 class="page-title">Place Your Order</h1>
+
+      <p class="lead">
+        Choose your favorites and add them to your cart.
+        Review your items before checkout.
+      </p>
+
+      <div class="menu-sections">
+
+        <fieldset id="sharing">
+          <legend>Pizza for Sharing</legend>
+
+          <ul class="items">
+
+            <li class="item menu-item">
+              <div>
+                <strong>Classic Pepperoni (Large)</strong>
+                <p>Pepperoni, mozzarella, house tomato sauce</p>
+              </div>
+
+              <span class="price">₱499</span>
+
+              <button class="btn btn-sm add-to-cart"
+                data-id="pepperoni"
+                data-name="Classic Pepperoni (Large)"
+                data-price="499">
+                Add to Cart
+              </button>
+            </li>
+
+            <li class="item menu-item">
+              <div>
+                <strong>Garden Veggie (Large)</strong>
+                <p>Peppers, olives, mushrooms, onions</p>
+              </div>
+
+              <span class="price">₱459</span>
+
+              <button class="btn btn-sm add-to-cart"
+                data-id="veggie"
+                data-name="Garden Veggie (Large)"
+                data-price="459">
+                Add to Cart
+              </button>
+            </li>
+
+            <li class="item menu-item">
+              <div>
+                <strong>Extra Cheesy (Large)</strong>
+                <p>Four-cheese blend with basil</p>
+              </div>
+
+              <span class="price">₱529</span>
+
+              <button class="btn btn-sm add-to-cart"
+                data-id="cheesy"
+                data-name="Extra Cheesy (Large)"
+                data-price="529">
+                Add to Cart
+              </button>
+            </li>
+
+          </ul>
+        </fieldset>
+
+        <fieldset id="pasta">
+          <legend>Pasta for Me</legend>
+
+          <ul class="items">
+
+            <li class="item menu-item">
+              <div>
+                <strong>Creamy Carbonara</strong>
+                <p>Cream sauce, bacon, parmesan</p>
+              </div>
+
+              <span class="price">₱199</span>
+
+              <button class="btn btn-sm add-to-cart"
+                data-id="carbonara"
+                data-name="Creamy Carbonara"
+                data-price="199">
+                Add to Cart
+              </button>
+            </li>
+
+            <li class="item menu-item">
+              <div>
+                <strong>Baked Spaghetti</strong>
+                <p>Tomato meat sauce, melted cheese</p>
+              </div>
+
+              <span class="price">₱189</span>
+
+              <button class="btn btn-sm add-to-cart"
+                data-id="spaghetti"
+                data-name="Baked Spaghetti"
+                data-price="189">
+                Add to Cart
+              </button>
+            </li>
+
+          </ul>
+        </fieldset>
+
+        <fieldset id="solo">
+          <legend>Solo Meal</legend>
+
+          <ul class="items">
+
+            <li class="item menu-item">
+              <div>
+                <strong>Personal Pepperoni</strong>
+                <p>8-inch pizza with a drink</p>
+              </div>
+
+              <span class="price">₱169</span>
+
+              <button class="btn btn-sm add-to-cart"
+                data-id="personal-pepperoni"
+                data-name="Personal Pepperoni"
+                data-price="169">
+                Add to Cart
+              </button>
+            </li>
+
+            <li class="item menu-item">
+              <div>
+                <strong>Personal Cheese</strong>
+                <p>8-inch pizza with a drink</p>
+              </div>
+
+              <span class="price">₱159</span>
+
+              <button class="btn btn-sm add-to-cart"
+                data-id="personal-cheese"
+                data-name="Personal Cheese"
+                data-price="159">
+                Add to Cart
+              </button>
+            </li>
+
+          </ul>
+        </fieldset>
+
+        <fieldset id="sides">
+          <legend>Sides &amp; Desserts</legend>
+
+          <ul class="items">
+
+            <li class="item menu-item">
+              <div>
+                <strong>Garlic Bread</strong>
+                <p>Six toasted slices with butter</p>
+              </div>
+
+              <span class="price">₱99</span>
+
+              <button class="btn btn-sm add-to-cart"
+                data-id="garlic-bread"
+                data-name="Garlic Bread"
+                data-price="99">
+                Add to Cart
+              </button>
+            </li>
+
+            <li class="item menu-item">
+              <div>
+                <strong>Chicken Wings</strong>
+                <p>Six pieces, your choice of glaze</p>
+              </div>
+
+              <span class="price">₱189</span>
+
+              <button class="btn btn-sm add-to-cart"
+                data-id="chicken-wings"
+                data-name="Chicken Wings"
+                data-price="189">
+                Add to Cart
+              </button>
+            </li>
+
+            <li class="item menu-item">
+              <div>
+                <strong>Cinnamon Rolls</strong>
+                <p>Four warm rolls with icing</p>
+              </div>
+
+              <span class="price">₱119</span>
+
+              <button class="btn btn-sm add-to-cart"
+                data-id="cinnamon-rolls"
+                data-name="Cinnamon Rolls"
+                data-price="119">
+                Add to Cart
+              </button>
+            </li>
+
+          </ul>
+        </fieldset>
+
+      </div>
+
+      <p class="cart-cta">
+        <a class="btn" href="cart.html">View Cart &amp; Checkout</a>
+      </p>
+
+    </main>
+
+    <footer class="footer">
+      <a class="footer-logo" href="index.html">
+        <img src="m1.jpg.png" alt="Logo">
+      </a>
+
+      <span>Freshly baked happiness, one slice at a time.</span>
+
+      <small>&copy; 2026 Deals Dough Hub Pizza House.</small>
+    </footer>
+
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
